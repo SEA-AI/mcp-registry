@@ -16,7 +16,8 @@
         "identifier": "fiftyone-mcp-server",
         "version": "0.1.3",
         "transport": {
-          "type": "stdio"
+          "type": "stdio",
+          "command": ["uv", "run", "--with", "fiftyone-mcp-server", "fiftyone-mcp"]
         }
       }
     ]
