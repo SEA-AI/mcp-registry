@@ -48,3 +48,4 @@ GitHub Pages auto-serves `index.html` for directory paths, so each endpoint is a
 ## Known Limitation
 
 GitHub Pages serves `index.html` with `Content-Type: text/html`. VS Code and Copilot parse the JSON body regardless. If strict content-type headers are needed, place Cloudflare, Vercel, or Netlify in front to override response headers.
+
