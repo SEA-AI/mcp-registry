@@ -8,7 +8,7 @@ It does **not** run any code — it only points to MCP server manifests that IDE
 
 | Server | Version | Transport | Package |
 |--------|---------|-----------|---------|
-| [FiftyOne MCP Server](https://github.com/voxel51/fiftyone-mcp-server) | 0.1.3 | stdio | `uvx fiftyone-mcp-server` |
+| [FiftyOne MCP Server](https://github.com/voxel51/fiftyone-mcp-server) | 0.1.3 | stdio | `uvx --from fiftyone-mcp-server fiftyone-mcp` |
 
 ## How It Works
 
